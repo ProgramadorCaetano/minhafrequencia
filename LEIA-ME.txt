@@ -1,0 +1,15 @@
+MINHA FREQUÊNCIA — PWA
+
+Conteúdo:
+- index.html: interface responsiva, player, controle de volume e metadados Zeno.
+- manifest.webmanifest: identificação e configurações para instalação.
+- sw.js: cache básico para abrir a interface quando estiver offline.
+- icon-192.png / icon-512.png / apple-touch-icon.png: ícones baseados no logotipo enviado.
+
+PUBLICAÇÃO
+Publique todos os arquivos desta pasta em uma hospedagem estática com HTTPS, mantendo-os no mesmo diretório. O HTTPS é necessário para service worker/PWA e para o stream seguro.
+
+Transmissão: https://stream.zeno.fm/xmvap69267zuv
+Metadados Zeno: https://api.zeno.fm/mounts/metadata/subscribe/xmvap69267zuv
+
+Depois de publicado, acesse o endereço no navegador e use “Instalar aplicativo”/“Adicionar à tela inicial”. Em iPhone/iPad, use Compartilhar > Adicionar à Tela de Início. A instalação varia conforme navegador e hospedagem.
